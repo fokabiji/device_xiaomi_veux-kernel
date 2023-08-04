@@ -3,6 +3,8 @@ alias of:N*T*Cqcom,sm8150-qsee-irq qsee_ipc_irq
 alias of:N*T*Cqcom,sm8150-qsee-irqC* qsee_ipc_irq
 alias of:N*T*Cqcom,kona-qsee-irq qsee_ipc_irq
 alias of:N*T*Cqcom,kona-qsee-irqC* qsee_ipc_irq
+alias of:N*T*Cqcom,sn-nci nq_nci
+alias of:N*T*Cqcom,sn-nciC* nq_nci
 alias platform:xhci-hcd xhci_plat_hcd
 alias of:N*T*Cgeneric-xhci xhci_plat_hcd
 alias of:N*T*Cgeneric-xhciC* xhci_plat_hcd
@@ -607,10 +609,14 @@ alias usb:v04B0p0301d0010dc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v04B3p4001d0110dc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v04B8p0601d0100dc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v04B8p0602d0110dc*dsc*dp*ic*isc*ip*in* usb_storage
+alias usb:v04C5p2028d0001dc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v04CBp0100d2210dc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v04CBp0100d220*dc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v04CBp0100d2[0-1]*dc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v04CBp0100d[0-1]*dc*dsc*dp*ic*isc*ip*in* usb_storage
+alias usb:v04CEp0002d026[0-9A-B]dc*dsc*dp*ic*isc*ip*in* usb_storage
+alias usb:v04CEp0002d02[0-5]*dc*dsc*dp*ic*isc*ip*in* usb_storage
+alias usb:v04CEp0002d0[0-1]*dc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v04CEp0002d026Cdc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v04DAp0901d0200dc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v04DAp0901d01*dc*dsc*dp*ic*isc*ip*in* usb_storage
@@ -907,6 +913,7 @@ alias usb:v1DE1pC102d*dc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v1E68p001Bd0000dc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v1E74p4621d0000dc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v2027pA001d*dc*dsc*dp*ic*isc*ip*in* usb_storage
+alias usb:v2109p0715d9999dc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v2116p0320d0001dc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v22B8p3010d0001dc*dsc*dp*ic*isc*ip*in* usb_storage
 alias usb:v22B8p6426d0101dc*dsc*dp*ic*isc*ip*in* usb_storage
